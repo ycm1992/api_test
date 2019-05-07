@@ -18,7 +18,6 @@ class Mylog:
         self.logger_level = ReadConfig(conf_path).get_str_data('LOG', 'logger_level')
         self.file_level = ReadConfig(conf_path).get_str_data('LOG', 'file_level')
         self.stream_level = ReadConfig(conf_path).get_str_data('LOG', 'stream_level')
-        self.file_name = ReadConfig(conf_path).get_str_data('LOG', 'file_name')
         self.formatter = ReadConfig(conf_path).get_str_data('LOG', 'formatter')
 
     def my_log(self, level, msg):
@@ -35,7 +34,7 @@ class Mylog:
         ch.setFormatter(formatter)
 
         # file handler:输出到文件
-        fh = logging.FileHandler(self.file_name, encoding='utf-8')
+        fh = logging.FileHandler(log_path, encoding='utf-8')
         fh.setLevel(self.file_level)
         fh.setFormatter(formatter)
 

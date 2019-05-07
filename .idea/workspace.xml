@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_2/common/my_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_2/common/read_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_2/conf/data.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_2/test_result/test_log/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_2/test_result/test_report/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/API_Automated_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_Automated_Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_2/test_result/test_log/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_2/common/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/common/do_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_2/common/project_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/common/project_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_2/common/my_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/common/my_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_2/test_cases/test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_cases/test_cases.py" afterDir="false" />
     </list>
@@ -29,15 +18,15 @@
     <SUITE FILE_PATH="coverage/api_test$run.coverage" NAME="run Coverage Results" MODIFIED="1557241374720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2" />
     <SUITE FILE_PATH="coverage/api_test$do_excel__1_.coverage" NAME="do_excel (1) Coverage Results" MODIFIED="1557222866702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/common" />
     <SUITE FILE_PATH="coverage/api_test$test11.coverage" NAME="test11 Coverage Results" MODIFIED="1557224671180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1557224748318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
+    <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1557244472873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="1154">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="e#163#178#0" expanded="true" />
               </folding>
@@ -45,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_2/common/my_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-274">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="e#134#148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API_2/conf/data.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API_2/common/project_path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="258">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -108,12 +109,12 @@
         <option value="$PROJECT_DIR$/API_1/test_cases/test_cases.py" />
         <option value="$PROJECT_DIR$/test11.py" />
         <option value="$PROJECT_DIR$/API_2/run.py" />
-        <option value="$PROJECT_DIR$/API_2/test_cases/test_cases.py" />
         <option value="$PROJECT_DIR$/API_2/common/do_excel.py" />
-        <option value="$PROJECT_DIR$/API_2/common/my_log.py" />
         <option value="$PROJECT_DIR$/API_2/conf/data.conf" />
         <option value="$PROJECT_DIR$/API_2/common/project_path.py" />
         <option value="$PROJECT_DIR$/API_2/common/read_config.py" />
+        <option value="$PROJECT_DIR$/API_2/test_cases/test_cases.py" />
+        <option value="$PROJECT_DIR$/API_2/common/my_log.py" />
       </list>
     </option>
   </component>
@@ -144,12 +145,6 @@
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
               <item name="API_2" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="API_2" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -163,6 +158,13 @@
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
               <item name="API_2" type="462c0819:PsiDirectoryNode" />
               <item name="test_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="API_2" type="462c0819:PsiDirectoryNode" />
+              <item name="test_result" type="462c0819:PsiDirectoryNode" />
+              <item name="test_log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python tests.Unittests in test_cases.py">
     <configuration name="do_excel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_Automated_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,8 +306,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in test_cases.py" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.test11" />
         <item itemvalue="Python.do_excel (1)" />
         <item itemvalue="Python.project_path" />
@@ -325,20 +327,19 @@
       <workItem from="1556864757048" duration="1598000" />
       <workItem from="1556941015337" duration="7736000" />
       <workItem from="1557027257270" duration="1955000" />
-      <workItem from="1557221178164" duration="7416000" />
+      <workItem from="1557221178164" duration="8611000" />
     </task>
+    <task id="LOCAL-00001" summary="api test">
+      <created>1557243553277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557243553277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 18h 13m 05s.xml">
-      <configuration name="Unittests in test_cases.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 18h 19m 18s.xml">
-      <configuration name="Unittests in test_cases.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 18h 21m 16s.xml">
-      <configuration name="Unittests in test_cases.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 18h 21m 32s.xml">
       <configuration name="Unittests in test_cases.py" configurationId="tests" />
     </history-entry>
@@ -360,9 +361,27 @@
     <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 18h 25m 50s.xml">
       <configuration name="Unittests in test_cases.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 23h 48m 28s.xml">
+      <configuration name="Unittests in test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 23h 50m 44s.xml">
+      <configuration name="Unittests in test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_cases_py - 2019.05.07 at 23h 54m 34s.xml">
+      <configuration name="Unittests in test_cases.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18705000" />
+    <option name="totallyTimeSpent" value="19900000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -373,16 +392,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,6 +415,11 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api test" />
+    <option name="LAST_COMMIT_MESSAGE" value="api test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_Automated_Test$project_path.coverage" NAME="project_path Coverage Results" MODIFIED="1557027629172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_1/common" />
@@ -448,23 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_cases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#163#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_2/conf/data.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API_2/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -475,10 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_2/common/project_path.py">
+    <entry file="file://$PROJECT_DIR$/API_2/conf/data.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="112">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -491,8 +498,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API_2/common/my_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-274">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#134#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_2/common/project_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_2/test_result/test_log/test.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_cases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1154">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#163#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
