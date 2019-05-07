@@ -19,17 +19,31 @@ test_data = DoExcel(case_path, "register").read_data()
 class TestCases(unittest.TestCase):
 
     def setUp(self):
-        pass
+        self.t = DoExcel(case_path, "register")
 
     def tearDown(self):
         pass
 
     @data(*test_data)
     def test_cases(self, case):
+        global TestResult
         method = case["Method"]
         url = case["Url"]
         param = eval(case["Params"])
         resp = HttpRequest().http_request(method, url, param)
+        try:
+            self.assertEqual(eval(case["ExpectedResult"]), resp.json())
+            TestResult = "PASS"
+        except AssertionError as e:
+            TestResult = "FAILED"
+            print("断言出错", e)
+            raise e
+        finally:
+            self.t.write_back(case["CaseId"]+1, 9, resp.text)
+            self.t.write_back(case["CaseId"]+1, 10, TestResult)
+
         print("实际结果是{}".format(resp.json()))
 
 
+if __name__ == '__main__':
+    unittest.main()

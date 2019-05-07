@@ -11,4 +11,7 @@ import os
 
 project_path = os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
 case_path = os.path.join(project_path, "test_cases", "api_test.xlsx")
-print(case_path)
+report_path = os.path.join(project_path, "test_result", "test_report")
+log_path = os.path.join(project_path, "test_result", "test_log", "test.log")
+conf_path = os.path.join(project_path, "conf", "data.conf")
+

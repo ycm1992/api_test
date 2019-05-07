@@ -7,6 +7,7 @@
 
 
 from openpyxl import load_workbook
+from API_2.common.project_path import case_path
 
 
 class DoExcel:
@@ -25,9 +26,10 @@ class DoExcel:
             row_data["CaseId"] = sheet.cell(i, 1).value
             row_data["Module"] = sheet.cell(i, 2).value
             row_data["Title"] = sheet.cell(i, 3).value
-            row_data["Method"] = sheet.cell(i, 4).value
-            row_data["Params"] = sheet.cell(i, 5).value
-            row_data["ExpectedResult"] = sheet.cell(i, 6).value
+            row_data["Url"] = sheet.cell(i, 4).value
+            row_data["Method"] = sheet.cell(i, 5).value
+            row_data["Params"] = sheet.cell(i, 6).value
+            row_data["ExpectedResult"] = sheet.cell(i, 7).value
             test_data.append(row_data)
         wb.close()
         return test_data
@@ -40,13 +42,9 @@ class DoExcel:
         wb.close()
 
 
-
-
 if __name__ == '__main__':
 
-    file_name = "/Users/yuchuanman/PycharmProjects/API_Automated_Test/API_1/test_cases/api_test.xlsx"
-    sheet_name = "register"
-    result = DoExcel(file_name,sheet_name).read_data()
+    result = DoExcel(case_path, "register").read_data()
     print(result)
 
 

@@ -6,27 +6,22 @@
 # @Software: PyCharm
 
 
-from API_1.common.http_request import HttpRequest
-from API_1.common.do_excel import DoExcel
-from API_1.common.project_path import case_path
+import unittest
+import time
+import HTMLTestRunnerNew
+from API_2.common.project_path import report_path
+from API_2.test_cases.test_cases import TestCases
 
-test_data = DoExcel(case_path, "register").read_data()
+suite = unittest.TestSuite()
+loader = unittest.TestLoader()
+suite.addTest(loader.loadTestsFromTestCase(TestCases))
 
-for case in test_data:
-    method = case["Method"]
-    url = case["Url"]
-    param = eval(case["Params"])
-    print("开始测试")
-    resp = HttpRequest().http_request(url=url, method=method, param=param)
-    print("实际结果是{}".format(resp.json()))
-
-    if resp.json() == eval(case["ExpectedResult"]):
-        Test_Result = "PASS"
-    else:
-        Test_Result = "FAILED"
-    print("该条测试用例结果是{}".format(Test_Result))
-
-    t = DoExcel(case_path, "register")
-    # 不能写入json格式，因为excel只能写入字符串和数字，所以用resp.text
-    t.write_back(case["CaseId"]+1, 8, resp.text)
-    t.write_back(case["CaseId"]+1, 9, Test_Result)
+now = time.strftime("%Y_%m_%d_%H_%M_%S")
+report = report_path+"\\"+now+".html"
+with open(report, "wb")as file:
+    runner = HTMLTestRunnerNew.HTMLTestRunner(stream=file,
+                                title='测试报告',
+                                description='注册接口测试报告',
+                                verbosity=2,
+                                tester='chuanman.yu')
+    runner.run(suite)
