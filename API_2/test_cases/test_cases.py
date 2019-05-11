@@ -14,7 +14,7 @@ from API_2.common.do_excel import DoExcel
 from API_2.common.my_log import Mylog
 
 mylog = Mylog()
-test_data = DoExcel(case_path, "register").read_data()
+test_data = DoExcel(case_path, "register").read_data("REGISTER_CASE")
 
 
 @ddt
