@@ -37,7 +37,9 @@ class DoExcel:
                 # 因为从excel中获取的tel是int，所以要转成str才能替换
                 row_data["Params"] = sheet.cell(i, 6).value.replace("tel", str(tel))
                 self.update_tel(tel+1)
-            row_data["ExpectedResult"] = sheet.cell(i, 7).value
+            else:
+                row_data["Params"] = sheet.cell(i, 6).value
+            row_data["ExpectedResult"] = sheet.cell(i, 8).value
             test_data.append(row_data)
         wb.close()
         final_data = []
@@ -73,7 +75,7 @@ class DoExcel:
 
 if __name__ == '__main__':
 
-    result = DoExcel(case_path, "register").read_data("REGISTER_CASE")
+    result = DoExcel(case_path, "recharge").read_data("RECHARGE_CASE")
     # result = DoExcel(case_path, "tel").get_tel()
     print(result)
 

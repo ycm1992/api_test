@@ -10,7 +10,7 @@ import unittest
 import time
 import HTMLTestRunnerNew
 from API_2.common.project_path import report_path
-from API_2.test_cases.test_cases import TestCases
+from API_2.test_cases.test_register import TestCases
 
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
