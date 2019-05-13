@@ -11,17 +11,17 @@ import requests
 
 class HttpRequest:
 
-    def http_request(self, method, url, param):
+    def http_request(self, method, url, param, cookies):
 
         global resp
         if method.upper() == "GET":
             try:
-                resp = requests.get(url, params=param)
+                resp = requests.get(url, params=param, cookies=cookies)
             except Exception as e:
                 print("get请求出错了：".format(e))
         elif method.upper() == "POST":
             try:
-                resp = requests.post(url, data=param)
+                resp = requests.post(url, data=param, cookies=cookies)
             except Exception as e:
                 print("post请求出错了：".format(e))
         else:
