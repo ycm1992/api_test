@@ -30,7 +30,7 @@ class DoMysql:
 
 
 if __name__ == '__main__':
-    query = "select max(Id) from loan where MemberID=1248"
+    query = "select*from member where MobilePhone=15921919560"
     print(DoMysql().do_mysql(query))
 
 

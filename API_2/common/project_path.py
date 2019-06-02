@@ -15,3 +15,4 @@ report_path = os.path.join(project_path, "test_result", "test_report")
 log_path = os.path.join(project_path, "test_result", "test_log", "test.log")
 conf_path = os.path.join(project_path, "conf", "data.conf")
 
+
