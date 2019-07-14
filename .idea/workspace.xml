@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_2/test_result/test_log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_result/test_log/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test11.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,11 +101,6 @@
             <path>
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="API_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +259,7 @@
       <workItem from="1559140735187" duration="28000" />
       <workItem from="1559478756116" duration="4139000" />
       <workItem from="1561986951085" duration="142000" />
-      <workItem from="1563090192487" duration="2546000" />
+      <workItem from="1563090192487" duration="2939000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1557243553277</created>
@@ -320,7 +318,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52546000" />
+    <option name="totallyTimeSpent" value="52939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
