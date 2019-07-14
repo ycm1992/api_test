@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="" />
+    <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_cases/api_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_2/test_result/test_log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/test_result/test_log/test.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/api_test$run.coverage" NAME="run Coverage Results" MODIFIED="1563090249428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2" />
+    <SUITE FILE_PATH="coverage/api_test$run.coverage" NAME="run Coverage Results" MODIFIED="1563110241322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2" />
     <SUITE FILE_PATH="coverage/api_test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1557669078916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
     <SUITE FILE_PATH="coverage/api_test$test111.coverage" NAME="test111 Coverage Results" MODIFIED="1557674848333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
     <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_recharge_py.coverage" NAME="Unittests in test_recharge.py Coverage Results" MODIFIED="1563090426877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
@@ -19,24 +22,11 @@
     <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_add_loan_py.coverage" NAME="Unittests in test_add_loan.py Coverage Results" MODIFIED="1563090408723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
     <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1557306004362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
     <SUITE FILE_PATH="coverage/api_test$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1557667835928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/common" />
-    <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_register_py.coverage" NAME="Unittests in test_register.py Coverage Results" MODIFIED="1563090701379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
+    <SUITE FILE_PATH="coverage/api_test$Unittests_in_test_register_py.coverage" NAME="Unittests in test_register.py Coverage Results" MODIFIED="1563110118348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/test_cases" />
     <SUITE FILE_PATH="coverage/api_test$do_mysql.coverage" NAME="do_mysql Coverage Results" MODIFIED="1558620338473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_2/common" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/API_2/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#156#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +95,12 @@
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
               <item name="API_2" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="API_2" type="462c0819:PsiDirectoryNode" />
               <item name="test_result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_register.py">
+  <component name="RunManager" selected="Python.run">
     <configuration name="do_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_Automated_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,10 +237,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in test_register.py" />
         <item itemvalue="Python tests.Unittests in test_recharge.py" />
         <item itemvalue="Python tests.Unittests in test_add_loan.py" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.do_mysql" />
       </list>
     </recent_temporary>
@@ -271,7 +267,7 @@
       <workItem from="1559140735187" duration="28000" />
       <workItem from="1559478756116" duration="4139000" />
       <workItem from="1561986951085" duration="142000" />
-      <workItem from="1563090192487" duration="4571000" />
+      <workItem from="1563090192487" duration="5075000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1557243553277</created>
@@ -298,9 +294,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_recharge_py - 2019.06.02 at 20h 46m 23s.xml">
-      <configuration name="Unittests in test_recharge.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_recharge_py - 2019.06.02 at 20h 47m 05s.xml">
       <configuration name="Unittests in test_recharge.py" configurationId="tests" />
     </history-entry>
@@ -328,9 +321,12 @@
     <history-entry file="Unittests_in_test_register_py - 2019.07.14 at 15h 51m 43s.xml">
       <configuration name="Unittests in test_register.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_register_py - 2019.07.14 at 21h 15m 20s.xml">
+      <configuration name="Unittests in test_register.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54571000" />
+    <option name="totallyTimeSpent" value="55075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,14 +339,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831326" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5856833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5856833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3264642" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -487,30 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_recharge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#141#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API_2/test_cases/test111.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="e#166#181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +509,29 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#166#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_2/test_cases/test_recharge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#141#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API_2/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="150">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#156#171#0" expanded="true" />

@@ -332,3 +332,47 @@
 [2019-07-14 20:34:58,889]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第5条测试用例------
 [2019-07-14 20:34:58,889]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Title': '输入错误的手机号', 'CaseId': 5, 'Module': 'Register', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'Params': "{'mobilephone':'159219195606','pwd':'123456'}", 'sql': None, 'ExpectedResult': '{"status":0,"code":"20109","data":None,"msg":"手机号码格式不正确"}', 'Method': 'get'}
 [2019-07-14 20:34:59,076]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '20109', 'msg': '手机号码格式不正确', 'status': 0, 'data': None}
+[2019-07-14 21:14:28,882]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第1条测试用例------
+[2019-07-14 21:14:28,883]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'CaseId': 1, 'Params': "{'mobilephone':'15921919574','pwd':'123456'}", 'Module': 'Register', 'Method': 'get', 'ExpectedResult': '{"status":1,"code":"10001","data":None,"msg":"注册成功"}', 'Title': '正常注册', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'sql': None}
+[2019-07-14 21:14:29,094]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第2条测试用例------
+[2019-07-14 21:14:29,094]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'CaseId': 2, 'Params': "{'mobilephone':'','pwd':'123456'}", 'Module': 'Register', 'Method': 'post', 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"手机号不能为空"}', 'Title': '不输入手机号', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'sql': None}
+[2019-07-14 21:14:29,279]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'msg': '手机号不能为空', 'status': 0, 'code': '20103', 'data': None}
+[2019-07-14 21:14:29,280]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第3条测试用例------
+[2019-07-14 21:14:29,280]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'CaseId': 3, 'Params': "{'mobilephone':'15921919560','pwd':''}", 'Module': 'Register', 'Method': 'get', 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"密码不能为空"}', 'Title': '不输入密码', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'sql': None}
+[2019-07-14 21:14:29,467]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'msg': '密码不能为空', 'status': 0, 'code': '20103', 'data': None}
+[2019-07-14 21:14:29,468]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第4条测试用例------
+[2019-07-14 21:14:29,468]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'CaseId': 4, 'Params': "{'mobilephone':'15921919560','pwd':'123456'}", 'Module': 'Register', 'Method': 'post', 'ExpectedResult': '{"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}', 'Title': '输入已存在的手机号', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'sql': None}
+[2019-07-14 21:14:29,659]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'msg': '手机号码已被注册', 'status': 0, 'code': '20110', 'data': None}
+[2019-07-14 21:14:29,660]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第5条测试用例------
+[2019-07-14 21:14:29,661]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'CaseId': 5, 'Params': "{'mobilephone':'159219195606','pwd':'123456'}", 'Module': 'Register', 'Method': 'get', 'ExpectedResult': '{"status":0,"code":"20109","data":None,"msg":"手机号码格式不正确"}', 'Title': '输入错误的手机号', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'sql': None}
+[2019-07-14 21:14:29,850]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'msg': '手机号码格式不正确', 'status': 0, 'code': '20109', 'data': None}
+[2019-07-14 21:15:19,387]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第1条测试用例------
+[2019-07-14 21:15:19,388]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'ExpectedResult': '{"status":1,"code":"10001","data":None,"msg":"注册成功"}', 'Method': 'get', 'CaseId': 1, 'Title': '正常注册', 'sql': None, 'Module': 'Register', 'Params': "{'mobilephone':'15921919575','pwd':'123456'}"}
+[2019-07-14 21:15:19,614]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'status': 1, 'code': '10001', 'msg': '注册成功', 'data': None}
+[2019-07-14 21:15:19,615]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第2条测试用例------
+[2019-07-14 21:15:19,616]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"手机号不能为空"}', 'Method': 'post', 'CaseId': 2, 'Title': '不输入手机号', 'sql': None, 'Module': 'Register', 'Params': "{'mobilephone':'','pwd':'123456'}"}
+[2019-07-14 21:15:19,811]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'status': 0, 'code': '20103', 'msg': '手机号不能为空', 'data': None}
+[2019-07-14 21:15:19,812]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第3条测试用例------
+[2019-07-14 21:15:19,813]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"密码不能为空"}', 'Method': 'get', 'CaseId': 3, 'Title': '不输入密码', 'sql': None, 'Module': 'Register', 'Params': "{'mobilephone':'15921919560','pwd':''}"}
+[2019-07-14 21:15:20,000]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'status': 0, 'code': '20103', 'msg': '密码不能为空', 'data': None}
+[2019-07-14 21:15:20,002]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第4条测试用例------
+[2019-07-14 21:15:20,002]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'ExpectedResult': '{"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}', 'Method': 'post', 'CaseId': 4, 'Title': '输入已存在的手机号', 'sql': None, 'Module': 'Register', 'Params': "{'mobilephone':'15921919560','pwd':'123456'}"}
+[2019-07-14 21:15:20,201]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'status': 0, 'code': '20110', 'msg': '手机号码已被注册', 'data': None}
+[2019-07-14 21:15:20,202]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第5条测试用例------
+[2019-07-14 21:15:20,203]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'ExpectedResult': '{"status":0,"code":"20109","data":None,"msg":"手机号码格式不正确"}', 'Method': 'get', 'CaseId': 5, 'Title': '输入错误的手机号', 'sql': None, 'Module': 'Register', 'Params': "{'mobilephone':'159219195606','pwd':'123456'}"}
+[2019-07-14 21:15:20,389]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'status': 0, 'code': '20109', 'msg': '手机号码格式不正确', 'data': None}
+[2019-07-14 21:17:22,340]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第1条测试用例------
+[2019-07-14 21:17:22,340]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Method': 'get', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'CaseId': 1, 'ExpectedResult': '{"status":1,"code":"10001","data":None,"msg":"注册成功"}', 'sql': None, 'Module': 'Register', 'Title': '正常注册', 'Params': "{'mobilephone':'15921919576','pwd':'123456'}"}
+[2019-07-14 21:17:22,561]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '10001', 'msg': '注册成功', 'data': None, 'status': 1}
+[2019-07-14 21:17:22,561]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第2条测试用例------
+[2019-07-14 21:17:22,562]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Method': 'post', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'CaseId': 2, 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"手机号不能为空"}', 'sql': None, 'Module': 'Register', 'Title': '不输入手机号', 'Params': "{'mobilephone':'','pwd':'123456'}"}
+[2019-07-14 21:17:22,744]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '20103', 'msg': '手机号不能为空', 'data': None, 'status': 0}
+[2019-07-14 21:17:22,745]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第3条测试用例------
+[2019-07-14 21:17:22,745]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Method': 'get', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'CaseId': 3, 'ExpectedResult': '{"status":0,"code":"20103","data":None,"msg":"密码不能为空"}', 'sql': None, 'Module': 'Register', 'Title': '不输入密码', 'Params': "{'mobilephone':'15921919560','pwd':''}"}
+[2019-07-14 21:17:22,929]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '20103', 'msg': '密码不能为空', 'data': None, 'status': 0}
+[2019-07-14 21:17:22,929]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第4条测试用例------
+[2019-07-14 21:17:22,929]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Method': 'post', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'CaseId': 4, 'ExpectedResult': '{"status":0,"code":"20110","data":None,"msg":"手机号码已被注册"}', 'sql': None, 'Module': 'Register', 'Title': '输入已存在的手机号', 'Params': "{'mobilephone':'15921919560','pwd':'123456'}"}
+[2019-07-14 21:17:23,119]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '20110', 'msg': '手机号码已被注册', 'data': None, 'status': 0}
+[2019-07-14 21:17:23,120]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:------正在测试Register模块里面第5条测试用例------
+[2019-07-14 21:17:23,120]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:测试数据是{'Method': 'get', 'Url': 'http://test.lemonban.com/futureloan/mvc/api/member/register', 'CaseId': 5, 'ExpectedResult': '{"status":0,"code":"20109","data":None,"msg":"手机号码格式不正确"}', 'sql': None, 'Module': 'Register', 'Title': '输入错误的手机号', 'Params': "{'mobilephone':'159219195606','pwd':'123456'}"}
+[2019-07-14 21:17:23,302]-[INFO]-[my_log.py]-[chuanman.yu]-[日志信息]:实际结果是{'code': '20109', 'msg': '手机号码格式不正确', 'data': None, 'status': 0}
