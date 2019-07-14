@@ -8,6 +8,8 @@
 
 import unittest
 import time
+import sys
+sys.path.append("./")
 import HTMLTestRunnerNew
 from API_2.common.project_path import report_path
 from API_2.test_cases.test_register import TestCases
