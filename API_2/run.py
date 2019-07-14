@@ -18,8 +18,8 @@ suite = unittest.TestSuite()
 loader = unittest.TestLoader()
 suite.addTest(loader.loadTestsFromTestCase(TestCases))
 
-now = time.strftime("%Y_%m_%d_%H_%M_%S")
-report = report_path+"\\"+now+".html"
+# now = time.strftime("%Y_%m_%d_%H_%M_%S")
+report = report_path+"report.html"
 with open(report, "wb")as file:
     runner = HTMLTestRunnerNew.HTMLTestRunner(stream=file,
                                 title='测试报告',

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_2/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="11bba164-c635-46c1-b1b5-c7ae4e6fdb7f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API_2/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="389">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#156#171#0" expanded="true" />
               </folding>
@@ -103,6 +100,19 @@
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
               <item name="API_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="API_2" type="462c0819:PsiDirectoryNode" />
+              <item name="test_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="API_2" type="462c0819:PsiDirectoryNode" />
+              <item name="test_result" type="462c0819:PsiDirectoryNode" />
+              <item name="test_report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +271,7 @@
       <workItem from="1559140735187" duration="28000" />
       <workItem from="1559478756116" duration="4139000" />
       <workItem from="1561986951085" duration="142000" />
-      <workItem from="1563090192487" duration="3616000" />
+      <workItem from="1563090192487" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1557243553277</created>
@@ -320,7 +330,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53616000" />
+    <option name="totallyTimeSpent" value="54310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +355,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3264642" />
@@ -525,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/API_2/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="389">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#156#171#0" expanded="true" />
           </folding>
