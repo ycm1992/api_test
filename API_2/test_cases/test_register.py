@@ -44,8 +44,8 @@ class TestCases(unittest.TestCase):
             mylog.error("断言出错", e)
             raise e
         finally:
-            self.t.write_back(case["CaseId"]+1, 8, resp.text)
-            self.t.write_back(case["CaseId"]+1, 9, TestResult)
+            self.t.write_back(case["CaseId"]+1, 9, resp.text)
+            self.t.write_back(case["CaseId"]+1, 10, TestResult)
 
         mylog.info("实际结果是{}".format(resp.json()))
 
